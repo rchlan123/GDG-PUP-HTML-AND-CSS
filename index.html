@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparky Web Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!--Logo Container-->
+        <div class="logo-container">
+          <img src="/assets/images/gdg-logo.png" alt="GDG Logo" />
+          <h3>GDG On Campus PUP</h3>
+        </div>
+
+        <!--Links Container-->
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="cta-btn">Hire Me</button>
+        </div>
+      </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero" id="hero">
+      <div class="hero-container">
+        <!--Text Container-->
+        <div class="hero-text-container">
+          <h1 class="text-header">
+            Hi I'm <span class="blue-text">Rachel B. Arcilla</span>
+          </h1>
+          <p class="text-paragraph">
+            I'm an aspiring <span class="yellow-text">Web Developer</span> and a
+            <span class="green-text">member</span> of GDG On Campus PUP. I'm
+            passionate about creating web applications that are accessible and
+            user-friendly.
+          </p>
+        </div>
+
+        <!--Image Container-->
+        <div class="hero-img-container">
+          <img src="/assets/images/icon.png" alt="Profile" />
+        </div>
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="about">
+      <div class="about-container">
+        <!--About Image-->
+        <div class="about-image-container">
+          <img src="assets/images/icon.png" alt="" />
+        </div>
+
+        <div class="about-content">
+          <div class="text">
+            <h2>About Me</h2>
+            <p>
+              I am a beginner developer focusing on HTML & CSS. I am 18 years
+              old and studies in PUP.
+            </p>
+          </div>
+
+          <div class="about-cards">
+            <div class="card">
+              <h3>Passion</h3>
+              <p>
+                Creating interactive and user-friendly web designs that bring
+                ideas to life
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>Skills</h3>
+              <p>C, HTML, CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <h2>
+          <span class="blue-text">Skills</span>
+          <span class="red-text">To</span>
+          <span class="yellow-text">Be</span>
+          <span class="green-text">Unlocked</span>
+        </h2>
+        <div class="skills-grid">
+          <!--HTML-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+              alt="HTML"
+            />
+            <h3>HTML</h3>
+            <p>A markup language used to structure web content.</p>
+          </div>
+
+          <!--CSS-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+              alt="CSS"
+            />
+            <h3>CSS</h3>
+            <p>A stylesheet language that designs the appearance of web pages.</p>
+          </div>
+
+          <!--JS-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+              alt="JavaScript"
+            />
+            <h3>JavaScript</h3>
+            <p>A programming language that makes web pages interactive.</p>
+          </div>
+
+          <!--Git-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+              alt="Git"
+            />
+            <h3>Git</h3>
+            <p>A tool for tracking changes in code and managing versions.</p>
+          </div>
+
+          <!--Github-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              alt="GitHub"
+            />
+            <h3>GitHub</h3>
+            <p>An online platform for storing and collaborating on Git repositories.</p>
+          </div>
+
+          <!--Figma-->
+          <div class="skill">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+              alt="Figma" 
+            />
+            <h3>Figma</h3>
+            <p>A cloud-based tool for designing and prototyping user interfaces.</p>
+          </div>         
+        </div>
+      </div>
+    </section>
+
+    <!--Project Section-->
+    <section class="projects" id="projects">
+      <div class="projects--container">
+        <h2>Projects</h2>
+        <div class="projects--grid">
+          <div class="project-card">
+            <img src="/assets/images/project1.png" alt="project1">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills and projects built using HTML and CSS. Created in HTML and CSS Study Jam at GDG PUP Web Development Department.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+      <div class="contact--container">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <input type="text" placeholder="Your Name" required/>
+          <input type="email" placeholder="Your Email" required/>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer--container">
+          <p>&copy; 2024 Sparky&apos;s Portfolio All rights reserved.</p>
+          <div class="social-icons">
+            <!--fb-->
+            <a href="https://www.facebook.com/GDG-PUP-101471745662073" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="facebook">
+            </a>
+
+            <!--ig-->
+            <a href="https://www.instagram.com/gdg_pup/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/instagram-new--v2.png" alt="instagram">
+            </a>
+
+            <!--linkedin-->
+            <a href="https://www.linkedin.com/company/gdg-pup/" target="_blank">
+              <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin">
+            </a>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
